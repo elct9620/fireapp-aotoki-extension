@@ -10,4 +10,5 @@ html '_analytics.html.erb', :erb => false
 html 'index.html.erb', :erb => false
 
 stylesheet '_normalize.scss', :to => 'vendor/_normalize.scss'
+stylesheet 'main.scss'
 javascript 'modernizr-2.6.2.min.js', :to => 'vendor/modernizr-2.6.2.min.js'
