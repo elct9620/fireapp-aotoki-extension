@@ -23,6 +23,6 @@
         <!-- Add your site or application content here -->
         <%= content_for?(:page_content) ? yield(:page_content) : yield %>
 
-        <%= partial "analytics" %>
+        <%= partial "analytics" if enable_analytics? %>
     </body>
 </html>
